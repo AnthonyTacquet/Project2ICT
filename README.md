@@ -1,11 +1,5 @@
 # Our project
-app:
-* branch: development
-* folder: Aion2
-
-video:
-* branch: main
-* folder: root
+This project was made in gitlab so no branches, history and so on are available
 
 # 2223-PROJVertrekalarm
 
