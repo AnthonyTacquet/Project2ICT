@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightbl">#909ACD</color>
+    <color name="bl">#5C6797</color>
+    <color name="cyan">#007676</color>
+    <color name="darkcyan">#324B4B</color>
+    <color name="black">#FF000000</color>
+    <color name="lightcyan">#E9FDFD</color>
+    <color name="transparant">#00FFFFFF</color>
+</resources>

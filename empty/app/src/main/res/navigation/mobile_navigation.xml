@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.empty.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.empty.ui.notifications.NotificationsFragment"
+        android:label="@string/title_alarm"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_temp"
+        android:name="com.example.empty.ui.temp.TempFragment"
+        android:label="@string/options"
+        tools:layout="@layout/fragment_temp" />
+    <fragment
+        android:id="@+id/navigation_bluetooth"
+        android:name="com.empty.ui.options.BluetoothFragment"
+        android:label="Bluetooth"
+        tools:layout="@layout/fragment_bluetooth" />
+    <fragment
+        android:id="@+id/navigation_dashboard_fragment"
+        android:name="com.empty.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.empty.ui.calendar.CalendarFragment"
+        android:label="fragment_calendar"
+        tools:layout="@layout/fragment_calendar" />
+</navigation>
